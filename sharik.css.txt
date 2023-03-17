@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.container{
+    max-width: 80vw;
+}
+.topleft{
+width: 50%;
+}
+.topright{
+    width: 50%;
+}
+.topright img{
+    float: right;
+}
+.section1{
+    max-height: 100vh;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+.section3{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+}

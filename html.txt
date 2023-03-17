@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fitness with sharik</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='sharik.css'>
+    <link rel="stylesheet" href="main.css">
+    <script src='main.js'></script>
+</head>
+
+<body class="overflow-x-hidden">
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="items-center flex font-bold text-blue">SHARIK FITNESS
+                </div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex items-center flex-col px-2">
+                        <img src="https://img.freepik.com/free-photo/self-building-young-caucasian-bodybuilder-training-studio-background-neon-light-muscular-male-model-with-ball-concept-sport-bodybuilding-healthy-lifestyle-motion-action_155003-35391.jpg?size=626&ext=jpg">
+                        <h1 class="my-1">THE BEST GYM IN TOWN</h1>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, sed eius? Vel, pariatur
+                            soluta temporibus quos quasi quaerat molestiae facere officiis voluptatem incidunt tempore
+                            enim quidem architecto non asperiores veritatis obcaecati deleniti. Placeat numquam
+                            accusantium laboriosam sapiente incidunt. Consectetur, repellat?Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Dicta excepturi amet optio fugiat itaque, repellendus
+                            exercitationem illo, ex officiis aperiam non? Temporibus neque itaque eos ipsam illo? Totam,
+                            nam odit veniam rerum tempora distinctio similique possimus veritatis? Consequuntur quae
+                            tenetur inventore eius atque quisquam deleniti ad, quod a velit beatae facilis doloremque
+                            veritatis rem iure.</p>
+                    </div>
+                    <div class="topright">
+                        <img src="https://www.freepnglogos.com/uploads/bodybuilder-png/bodybuilder-travel-health-aircrew-fitness-fatigue-management-fitforflight-33.png"
+                            height="500px">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias, ad nostrum voluptate
+                    eaque
+                    repudiandae accusantium quis consequuntur numquam, eius, magni quasi eligendi consequatur amet
+                    dolorem cupiditate perferendis. Temporibus, atque totam numquam asperiores velit harum placeat eos
+                    distinctio vitae voluptate. Consequuntur.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free</h2>
+                        <hr>
+                        <ul>
+                            <li class="highlighted">₹0</li>
+                            <li>10 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign up for free</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Per/Month</h2>
+                        <hr>
+                        <ul>
+                            <li class="highlighted">₹1200</li>
+                            <li>20 users included</li>
+                            <li>10 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign up</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Per/Year</h2>
+                        <hr>
+                        <ul>
+                            <li class="highlighted">₹12000</li>
+                            <li>100 users included</li>
+                            <li>20 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Sign up</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1>Compare plan</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col"><pre>Sector</pre></th>
+                            <th scope="col">Free</th>
+                            <th scope="col">Pro</th>
+                            <th scope="col">Enterprice</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Public</th>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Private</th>
+                            <td>---</td>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Permission</th>
+                            <td>Yes</td>
+                            <td>Yes</td>
+                            <td>---</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Sharing</th>
+                            <td>Yes</td>
+                            <td>---</td>
+                            <td>Yes</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+        </main>
+        <footer class="footer">Copyright © Sharik Fitness</footer>
+    </div>
+</body>
+
+</html>
